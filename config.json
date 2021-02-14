@@ -1,0 +1,15 @@
+{
+  "repositories": [
+    "kuzaxak/renovate-helmfile-reproductions"
+  ],
+  "dryRun": false,
+  "helmfile": {
+    "enabled": true,
+    "fileMatch": [
+      "helmfile.yaml"
+    ],
+    "ignorePaths": [
+      "environment/"
+    ]
+  }
+}
