@@ -52,7 +52,7 @@ releases:
   chart: bitnami/rabbitmq
   needs:
     - manifests
-  version: 7.4.3
+  version: 8.10.2
 
 - name: prometheus-operator
   <<: *external-chart
